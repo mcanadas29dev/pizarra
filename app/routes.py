@@ -4,4 +4,4 @@ main = Blueprint('main', __name__)
 
 @main.route("/")
 def home():
-    return "Hola desde Pizarra Digital!"
+    return "Hola desde Pizarra Digital! con CI/CD"
